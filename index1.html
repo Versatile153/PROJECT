@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index1.css">
+    <title>PAGE TWOt</title>
+</head>
+<body>
+   <div class="navbar">
+       <div class="container">
+           <a class="logo" href="#">Remember<span>That</span>  </a>
+        <a href="#" class="mobile-open" onclick="show()"><h1>&barvee;</h1></a>
+           <nav class="nav-links">
+            <a href="" class="mobile-menu" onclick="hide()">&times;</a>
+               <ul class="primary-nav">
+                   <li class="current"><a href="#">Home</a></li>
+                   <li><a href="#">Features</a></li>
+                   <li><a href="#">Pricing</a></li>
+               </ul>
+               <ul class="secondary-nav">
+                <li><a href="#" class="ctt">Contact</a></li>
+                <li class="go-premiun-cta"><a href="#">Go premiun</a></li>
+               
+            </ul>
+           </nav>
+       </div>
+   </div>
+   <section class="hero">
+       <div class="container">
+           <div class="left-col">
+               <p class="subhead"> it's Nitty &amp; Gritty</p>
+               <h1>A Task App that does'nt stink</h1>
+               <div class="hero-cta">
+                   <a href="" class="primary-cta">Try For Free</a>
+                   <a href="" class="watch-video">Watch Video</a>
+               </div>
+               <img src="/img/blue img.webp" alt="" class="hero-img">
+           </div>
+           
+       </div>
+   </section>
+   <section class="features">
+       <div class="container">
+           <ul>
+               <li>Unlimited Task</li>
+               <li>SMS Task Reminder</li>
+               <li>Confetti Explosion Upon Task Completion</li>
+               <li>Social Media Announcement</li>
+               <li>Real Time Collaboration</li>
+               <li>Other Awesome Features</li>
+           </ul>
+           <img src="/img/blue img.webp" alt="">
+       </div>
+   </section>
+   <section class="testimonial">
+       <div class="container">
+           <ul>
+               <li>
+                   <img src="/img/student.webp" alt="">
+                   <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam in numquam voluptas optio corrupti facere ducimus dolore provident nihil et?</blockquote>
+                   <cite>versatile</cite>
+               </li>
+               <li>
+                <img src="/img/field.webp" alt="">
+                <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam in numquam voluptas optio corrupti facere ducimus dolore provident nihil et?</blockquote>
+                <cite>versatile</cite>
+            </li>
+            <li>
+                <img src="/img/images-3.webp" alt="">
+                <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam in numquam voluptas optio corrupti facere ducimus dolore provident nihil et?</blockquote>
+                <cite>versatile</cite>
+            </li>
+           </ul>
+       </div>
+   </section>
+   <section class="contact">
+       <div class="container">
+           <div class="contact-left">
+               <h2>contact</h2>
+               <form action="">
+                   <label>name</label>
+                   <input type="text" name="name" id="" placeholder="name">
+                   <label for="email">email</label>
+                   <input type="text" name="email" id="">
+                   <label for="">message</label>
+                   <textarea name="" id="" cols="30" rows="10"></textarea>
+                   <input type="submit" name="" id="" class="send-message-cta">
+               </form>
+           </div>
+       </div>
+       <div class="contact-right">
+           <img src="/img/map.webp" alt="">
+       </div>
+   </section>
+   <script>
+       const nav=document.querySelector(".nav-links")
+       function show() {
+            nav.style.display = "block";
+            nav.style.right='0'
+        }
+        function hide() {
+            nav.style.display = "none";
+        }
+   </script>
+    
+</body>
+</html>
