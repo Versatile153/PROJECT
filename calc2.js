@@ -14,7 +14,7 @@ button.addEventListener("click", (e)=>{
                try{
                 display.innerText=eval(display.innerText);
                }catch{
-                   display.innerText='error'
+                   display.innerText='inavilid opration'
                }
                break;
         
