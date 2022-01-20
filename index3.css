@@ -137,3 +137,35 @@ h1{
     animation-delay: 2s;
     width: 30px;
 }
+.music{
+    display: flex;
+    /* width: 1000px; */
+    justify-content: space-evenly;
+    place-content: center;
+}
+.sect1{
+    background-color: blue;
+    border: .5px solid white;
+    margin-top: 7px;
+    /* display: flex; */
+
+    width: 100%;
+}
+.sect1>img{
+    width: 100px;
+    border-radius: 50%;
+    float: right;
+}
+.sect1>button{
+    float: right;
+    border: 1px dotted white;
+    font-weight: bolder;
+    border-radius: 8px;
+}
+.sect1>h2{
+    color: white;
+}
+.navbar>video{
+    border-radius: 50%;
+    width: 40%;
+}
