@@ -1,0 +1,257 @@
+.header{
+    background: url(/images/teck1.jpeg);
+     background-color: #2d6aa7;
+    height: 100vh;
+}
+span{
+    color: blue;
+}
+nav a.img{
+    width:40%;
+    margin-left: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+a>img{
+    width: 40%;
+    border-radius: 30%;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+    padding: 30px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    background: black;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.nav ul li a:hover{
+    text-decoration: underline;
+}
+.textbox{
+    /* background: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   /* border: 2px solid  white; */
+    color: white;
+    font-weight: bolder;
+  
+}
+.textbox h1{
+    font-size:100px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.textbox h2{
+    font-size:50px;
+    margin-top: -70px;
+}
+nav .img {
+    color: white;
+    font-style:normal;
+    margin-top: 20px;
+    font-size: 45px;
+}
+.img span{
+    color: blue;
+    font-weight: bolder;
+}
+nav  a{
+    text-decoration: none;
+}
+.textbox .btn{
+    width: 250px;
+    background:blue;
+    padding: 15px;
+    border-end-end-radius: 20px;
+   border-top-left-radius: 20px;
+   cursor: pointer;
+   font-weight: bolder;
+   color: white;
+   border: 2px solid rgb(193, 193, 201);
+}
+.textbox span{
+    color: blue;
+}
+.row{
+    display: flex;
+}
+.row1{
+    padding: 20px;
+    margin: 20px;
+    background: beige;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0px blue;
+}
+.section h1{
+    text-align: center;
+}
+.section h2{
+    text-align: center;
+}
+.section .btn{
+    width: 250px;
+    background:rgb(145, 145, 218);
+    padding: 15px;
+    border-end-end-radius: 20px;
+   border-top-left-radius: 20px;
+   cursor: pointer;
+   font-weight: bolder;
+   color: white;
+   border: 2px solid rgb(193, 193, 201);
+  
+}
+.row1:hover{
+    position: relative;
+    top: -6px;
+    background: blue;
+    color: white;
+    transition: 5s;
+}
+.rows{
+    display: flex;
+    margin: 30px;
+    background: url(/images/teck2.jpeg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+    text-transform: capitalize;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    /* justify-content: space-between; */
+}
+.col1 span{
+   
+   font-weight: bolder;
+   font-family: cursive;
+   color:white;
+}
+.col1{
+    padding: 20px;
+}
+.rows .btn{
+    background:black;
+}
+.col1 .sp{
+    color:rgb(3, 3, 27);
+    font-weight: bolder;
+    font-family: cursive;
+}
+.rows .col2{
+    background: url(/images/teck1.jpeg);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+}
+.col2 span{
+    color: blue;
+    font-weight: bolder;
+}
+.rows .col2 .btn{
+    background: red;
+}
+.rows col {
+   font-family: serif;
+}
+.registration{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 25px;
+    background: url(/images/img22.jpeg);
+    border-radius: 10px;
+}
+.registration>form{
+    padding: 20px;
+    border-radius: 10px;
+  background: white;
+  background: url(/images/teck2.jpeg);
+}
+.registration form>input{
+    display: block;
+    text-align: right;
+    margin-right: 30px;
+    width: 300px;
+    padding: 20px;
+    margin: 15px;
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+.registration .left{
+    text-align: center;
+}
+.registration form>button{
+    background: blue;
+    float: right;
+    width: 250px;
+    margin-right: 15px;
+   padding: 15px;
+   color: white;
+   font-weight: bolder;
+   border-radius: 10px;
+}
+.advert{
+    background: url(/images/pexel5.jpeg);
+    height:60vh;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    margin:0 20px  ;
+    display: flex;
+
+}
+.one{
+    padding: 30px;
+     width: 100%;
+     /* background: blue; */
+     margin: 20px;
+}
+.one>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline;
+}
+.container h1{
+    text-align: center;
+    color: blue;
+    font-weight: bolder;
+}
+.advert .right{
+    background:url(/images/sky-night-romantic-blue.jpg);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+.one{
+    background: url(/images/sky-night-romantic-blue.jpg);
+    border-radius: 15px;
+}
+.one1 a{
+    color: white;
+    background-color: blue;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.one1 p{
+    color: white;
+}

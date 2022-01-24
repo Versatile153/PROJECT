@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.section{
+    /* height:40vh; */
+    width: 100vw;
+}
+body{
+    background: rgb(166, 167, 168);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(0, 0, 255) url(/img/blue.webp);
+   transform: skewY(-7px);
+    
+    padding: 40px;
+    
+}
+nav ul{
+    /* transform: skewY(-3deg); */
+    border-radius: 7px;
+   
+    
+}
+
+nav h1{
+    color: white;
+    font-family: cursive;
+    font-size: x-large;
+}
+nav a{
+    color: white;
+     font-size: larger;
+     font-weight: bolder;
+     text-decoration: none;
+}
+nav button{
+    margin-top: 6px;
+    padding: 10px;
+    background: rgb(43, 43, 83);
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+nav ul li{
+    list-style: none;
+}
+.header{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/blue.webp);
+  
+  
+}
+   
+
+ .header h1{
+   margin-top: 40px;
+   z-index: 2;
+   /* color: white; */
+}
+form{
+    float: right;
+
+    border-radius: 6px;
+    padding: 50px;
+    background: white;
+    margin-right: 50px;
+   
+}
+.header>form>input{
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    outline: none;
+   
+    border-radius: 7px;
+  
+    display: block;
+}
+textarea{
+    display: flex;justify-content: flex-start;
+    border-radius: 10px;
+    border: 6px solid blue;
+
+
+}
+.header button{
+    display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  border-radius: 6px;
+  background: blue;
+  color: white;
+
+  font-weight: bolder;
+}
