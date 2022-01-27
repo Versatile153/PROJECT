@@ -14,12 +14,12 @@ button.addEventListener("click", (e)=>{
                try{
                 display.innerText=eval(display.innerText);
                }catch{
-                   display.innerText='inavilid opration'
+                   display.innerText='invalid operaton'
                }
                break;
         
        default:
-           display.innerText+=e.target.innerText
+           display.innerText +=e.target.innerText
    }
 });
 });

@@ -189,6 +189,7 @@ nav .close{
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+    box-shadow: 20px 0 20px 0 blue;
 }
 .course-col:hover{
  background: rgb(209, 212, 212);
@@ -358,9 +359,28 @@ border-radius: 10px;
     padding: 15px;
     text-align: center;
     border-radius: 50px;
+    font-weight: bolder;
     
 }
 .icons span{
     color:black;
+}
+.hero1{
+    background-color: blue;
+    box-shadow: 5px 0 20px 0 red;
+    font-weight: bolder;
+    border-radius: 
+    7px;
+}
+.footer{
+    background: url(/img/images-5.jpeg);
+    background-position: center;
+    background-size: cover;
+    font-weight: bolder;
+    /* line-height: 40px; */
+    border-radius: 8px;
+    margin:auto;
+    
+
 }
 
