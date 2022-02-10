@@ -23,3 +23,7 @@ button.addEventListener("click", (e)=>{
    }
 });
 });
+
+buttons.map(function(button){
+    
+})
