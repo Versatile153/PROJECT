@@ -192,3 +192,108 @@
   
 </body>
 </html>
+<?php
+   include_once 'connect.php';
+   
+   if(isset($_POST['submit'])){
+  $name=$_POST['name'];
+  $email=$_POST['email'];
+  $mobile=$_POST['mobile'];
+  $password=$_POST['password'];
+
+
+  $sql="INSERT INTO crud_api(name,email,mobile,password)values('$name' ,'$email','$mobile','$password')";
+
+  $result =mysqli_query($conn,$sql);
+
+  if($result){
+    echo "data inserted successfully";
+  }else{
+    die(mysqli_error($conn));
+  }
+}
+
+
+?>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crud</title>
+    <style>
+        form{
+          background-color: gray;
+          width: 500px;
+          height: 500px;
+          display: flex;
+          flex-direction: column;
+          border-radius: 10px;
+          color: white;
+          font-weight: bolder;
+          font-size: x-large;
+          align-items: center;
+          justify-content: space-around;
+        }
+        form>label{
+          display: flex;
+          border-bottom: 2px solid rgb(116, 116, 163);
+          font-weight: bold;
+        
+        }
+        form >input{
+          padding: 10px;
+          border-radius: 6px;
+          background-color: rgb(139, 139, 145);
+          outline: none;
+          border-style: none;
+          width: 80%;
+          overflow: hidden;
+        }
+        button{
+          width: 40%;
+          padding: 10px;
+          border-radius: 10px;
+          background-color: skyblue;
+          cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <h1>crud operations</h1>
+    <form action="" method="post">
+       
+        <label for="">name</label>
+        <input type="text" name="name">
+       
+
+        
+        <label for="">email</label>
+        <input type="email" name="email"
+        >
+     
+      
+      <label for="">mobile</label>
+        <input type="text" name="mobile">
+     
+      
+      <label for="">password</label>
+        <input type="text" name="password" >
+      
+
+      
+     <button type="submit" name= "submit">submit</button>
+    
+    </form>
+
+
+
+</body>
+</html>

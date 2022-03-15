@@ -1,0 +1,23 @@
+2022-03-15T12:01:59.383655Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-03-15T12:01:59.482868Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-03-15T12:01:59.482904Z 0 [Note] C:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld (mysqld 5.7.33) starting as process 13028 ...
+2022-03-15T12:02:00.489643Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-03-15T12:02:00.491343Z 0 [Note] InnoDB: Uses event mutexes
+2022-03-15T12:02:00.492730Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-03-15T12:02:00.497604Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-03-15T12:02:00.567966Z 0 [Note] InnoDB: Number of pools: 1
+2022-03-15T12:02:00.575944Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-03-15T12:02:00.582374Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-03-15T12:02:00.595775Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-03-15T12:02:00.632798Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2022-03-15T12:02:00.633573Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2022-03-15T12:02:00.634301Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2022-03-15T12:02:00.941921Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2022-03-15T12:02:00.943549Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2022-03-15T12:02:00.945585Z 0 [ERROR] Failed to initialize builtin plugins.
+2022-03-15T12:02:00.947159Z 0 [ERROR] Aborting
+
+2022-03-15T12:02:00.948585Z 0 [Note] Binlog end
+2022-03-15T12:02:00.949960Z 0 [Note] Shutting down plugin 'CSV'
+2022-03-15T12:02:01.077635Z 0 [Note] C:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: Shutdown complete
+

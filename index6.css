@@ -1,0 +1,181 @@
+.container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    height: 100vh;
+    text-transform: capitalize;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-template-areas:"nav nav nav nav"
+    "sidebar main main main"
+    "sidebar content1 content2 content3"
+    "sidebar footer footer footer"
+    ;
+
+}
+button[type='submit']{
+    width: 50%;
+    cursor: pointer;
+    padding: 15px;
+    background: white;
+    color: tomato;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size:large;
+}
+nav{
+    background: #0713b8;
+    height: 70vh;
+    display: flex;
+    text-align: center;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-area: nav;
+}
+main{
+    background:url(/images/pexel2.jpeg);
+    grid-area: main;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 200vh;
+}
+.sidebar{
+    background:wheat;
+    height: 200vh;
+    /* box-shadow: 0 0 30px 15px blue; */
+    /* background:url(/images/pexels-photo-3747139.jpeg); */
+    object-fit: cover;
+    grid-area: sidebar;
+}
+.content1{
+    background: #6fffd2;
+    grid-area: content1;
+    height: 100vh;
+}
+
+.content2{
+    background: #64ffda;
+    background-image: url(/images/pexel5.jpeg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    grid-area: content2;
+}
+
+.content3{
+    background: #73ffba;
+    height: 100vh;
+    background: url(/images/pexels-photo-1181352.jpeg);
+    grid-area: content3;
+}
+footer{
+    background: #1de9b6;
+    background: url(/images/background.webp);
+    height: 100vh;
+    grid-area: footer;
+}
+.logo h1{
+color: white;
+font-size: xx-large;
+letter-spacing: 10px;
+}
+.logo p{
+    color: white;
+    word-spacing: 6px;
+    line-height:20px;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+}
+.ul{
+    margin-bottom: 350px;
+}
+.ul ul{
+    display: flex;
+}
+.ul ul li{
+    list-style: none;
+    /* width: 100px; */
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+.ul ul li:hover{
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+}
+ .box .btn{
+    padding: 10px;
+    margin-top: 10px;
+    background: #bd1049;
+    color: white;
+    font-size: normal;
+    border-radius: 10px;
+    width: 200px;
+}
+.box{
+    color:rgb(2, 2, 20);
+}
+main input{
+    padding: 15px;
+    margin-left: 10px;
+    font-weight: bolder;
+    width: 300px;
+    border-radius: 10px;
+}
+main button[type='submit']{
+    width:50x;
+  color: white;
+    background: blue;
+    margin-left:10px;
+    margin-top: 50px;
+}
+.text{
+    text-align: center;
+    /* background-color: blue; */
+}
+ main  h1{
+    letter-spacing: 10px;
+    font-size: 100px;
+    font-weight:450;
+    background: url(/images/background.webp);
+    box-shadow: 0 0 30px 15px blue;
+    background-size:100% 100%;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.area{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+.area  .box1 button{
+    padding: 6px;
+    margin-top: 10px;
+    background: #bd1049;
+    color: white;
+    font-size: normal;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.area  .box2 button{
+    /* background-color: white; */
+    padding: 6px;
+    margin-top: 10px;
+    background: #bd1049;
+    color: white;
+    font-size: normal;
+    border-radius: 10px;
+    width: 200px;
+}
+.area h2{
+   color: #0713b8;
+   border-bottom: 1px solid blue;
+   border-left: 1px solid blue;
+}
